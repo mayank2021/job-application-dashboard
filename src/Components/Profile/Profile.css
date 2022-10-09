@@ -1,0 +1,42 @@
+.profile-main--container{
+    display: flex;
+    padding: 30px;
+    border: 2px solid rgba(71, 181, 255, 0.1);
+    width: 800px;
+    border-radius: 5px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    margin:40px 0 ;
+}
+
+.profile-right--container img{
+ width: 80px;
+}
+
+.profile-left--container{
+
+    color:rgba(0,0,0,0.8);
+    margin-left: 20px;
+
+}
+
+.profile-left--container h2{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.profile-left--container h5{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+   line-height: 2;
+}
+
+.profile-left--container p{
+    font-size: 0.8rem;
+}
+
+.job-detail-profile{
+    border: none;
+    margin: 0;
+}

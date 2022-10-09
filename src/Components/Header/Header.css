@@ -1,0 +1,19 @@
+.header{
+    background-color: #47B5FF;
+    height: 12vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.header h1{
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header img{
+    width: 45px;
+}

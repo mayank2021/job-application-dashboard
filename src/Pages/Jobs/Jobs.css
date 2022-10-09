@@ -1,0 +1,9 @@
+.job-main--container{
+    padding:40px 120px;
+    width: 100%;
+}
+
+.job-main--container h1{
+    font-weight: 500;
+    color: #3D3C42;
+}

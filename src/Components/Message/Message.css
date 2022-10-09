@@ -1,0 +1,31 @@
+.message-main--container{
+    display: flex;
+    border: 2px solid #7DCE13;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px;
+}
+.message-left--container{
+    display: flex;
+    align-items: center;
+}
+.message-left--container img{
+width: 25px;
+}
+
+.message-right--container{
+    margin-left: 20px;
+}
+
+.message-right--container h4{
+    color:rgba(0,0,0,0.7);
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.message-right--container p{
+    color:rgba(0,0,0,0.5);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 3px;
+}

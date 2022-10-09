@@ -1,0 +1,16 @@
+.primary-container{
+    border: 2px solid rgba(71, 181, 255, 0.1);
+    padding: 30px;
+    width: 800px;
+    margin-bottom: 50px;
+}
+.primary-container h4{
+    color: #3D3C42;
+    text-transform: capitalize;
+}
+
+.primary-container h5{
+    color: rgba(0,0,0,0.5);
+    line-height: 1.5;
+    font-weight: 500;
+}

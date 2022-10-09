@@ -1,0 +1,81 @@
+.jobcard-main--container{
+display: flex;
+margin: 25px 0 ;
+border-radius: 2px;
+border: 1px solid rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+.jobcard-right--container{
+    padding: 5px;
+}
+
+.jobcard-right--container img{
+    border: 2px solid rgba(0,0,0,0.1);
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0 10px 10px 0;
+    border-radius: 4px;
+}
+
+.jobcard-left--container {
+    padding: 5px;
+}
+.jobcard-left--container h3{
+    color: #3D3C42;
+    text-transform: capitalize;
+}
+
+.jobcard-left--container h5{
+    font-weight: 500;
+    color:rgba(0,0,0,0.5);
+    margin: 5px 0;
+}
+
+.jobcard-left--container p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 10px 0 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.jobcard-left--container span{
+    font-size: 0.7rem;
+}
+
+
+.button-container{
+    margin-left: auto;
+}
+
+
+.button-container button{
+    border: 1.5px solid #3D3C42;
+    border-radius: 2px;
+
+    padding: 7px 12px;
+   
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin: 0 5px;
+    letter-spacing: 1px;
+}
+
+.primary{
+    background: transparent;
+    color:#3D3C42;
+}
+
+.secondary{
+background-color: #3D3C42;
+color: white;
+}
+
+.job-detail-modal{
+border: none;
+margin: 0 10px;
+border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}

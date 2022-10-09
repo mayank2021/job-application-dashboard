@@ -1,0 +1,25 @@
+.status-container{
+    display: flex;
+    align-items: center;
+    color: rgba(0,0,0,0.6);
+}
+
+.status-container p:nth-child(2){
+font-weight: 600;
+text-transform: capitalize;
+margin: 0 !important;
+}
+
+.status-container p:nth-child(3){
+
+    margin: 0;
+    margin-left: 5px;
+}
+
+.status-dot{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 5px 0 0!important;
+    border-radius: 100px;
+}

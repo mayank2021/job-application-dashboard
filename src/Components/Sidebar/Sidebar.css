@@ -1,0 +1,35 @@
+.sidebar--container{
+    background-color: rgba(71, 181, 255, 0.07);
+}
+
+.sidebar--container h5{
+    padding: 10px 15px;
+    color: rgba(0,0,0,0.7);
+}
+
+
+.sidebar-link{
+    text-decoration: none;
+    color:rgba(0,0,0,0.7)
+}
+
+.sidebar-link:hover, .sidebar--container p:hover {
+   background-color: rgba(71, 181, 255, 1);
+   color: white;
+}
+
+.sidebar--container p {
+    padding: 7px 15px;
+    margin: 5px 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    letter-spacing: 0.5px;
+}
+
+.active-link{
+    background-color: rgba(71, 181, 255, 1);
+    color: white;
+    font-weight: 600;
+
+}

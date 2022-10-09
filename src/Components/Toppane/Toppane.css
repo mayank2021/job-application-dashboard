@@ -1,0 +1,22 @@
+.toppane-container{
+    display: flex;
+    margin: 15px 0;
+}
+
+.toppane-container p{
+   font-size: 1rem;
+   margin: 0 10px;
+   color: rgba(0,0,0,0.6);
+   padding-bottom: 3px;
+   cursor: pointer;
+}
+
+.toppane-container p:nth-child(1) {
+    margin-left: 0;
+}
+
+.active-tab{
+font-weight: 500;
+color: rgba(0,0,0,1) !important;
+border-bottom: 2px solid black;
+}
